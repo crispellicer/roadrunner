@@ -22,7 +22,6 @@ public class UserDetailsModel implements UserDetailsContract.Model {
     @Override
     public void loadDetailsUser(long userId, UserDetailsContract.Model.OnLoadUserListener listener) {
 
-
         RoadRunnerApiInterface roadRunnerApi = RoadRunnerApi.buildInstance();
         Call<User> callUsers = RoadRunnerApi.buildInstance().getUser(userId);
         callUsers.enqueue(new Callback<User>() {

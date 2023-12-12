@@ -2,6 +2,7 @@ package com.svalero.roadrunner.adapter;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -91,11 +92,13 @@ public class RegistrationAdapter extends RecyclerView.Adapter<RegistrationAdapte
 
     private void deleteRegistration(int position) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        SharedPreferences sharedPreferences = context.getSharedPreferences("mainSharedPreferences",Context.MODE_PRIVATE);
+        long userId = sharedPreferences.getLong("userId", 0);
         builder.setMessage("Are you sure?")
                 .setTitle("Delete registration")
                 .setPositiveButton("Yes", (dialog, id) -> {
                     Registration registration = registrationsList.get(position);
-                    presenter.deleteRegistration(registration.getId(), 1);
+                    presenter.deleteRegistration(registration.getId(), userId);
 
                     registrationsList.remove(position);
                     notifyItemRemoved(position);

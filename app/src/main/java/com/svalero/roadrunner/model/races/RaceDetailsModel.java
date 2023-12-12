@@ -22,7 +22,6 @@ public class RaceDetailsModel implements RaceDetailsContract.Model {
     @Override
     public void loadDetailsRace(long raceId, OnLoadRaceListener listener) {
 
-
         RoadRunnerApiInterface roadRunnerApi = RoadRunnerApi.buildInstance();
         Call<Race> callRaces = RoadRunnerApi.buildInstance().getRace(raceId);
         callRaces.enqueue(new Callback<Race>() {

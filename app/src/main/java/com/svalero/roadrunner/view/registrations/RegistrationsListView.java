@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -18,7 +17,6 @@ import com.svalero.roadrunner.adapter.RegistrationAdapter;
 import com.svalero.roadrunner.contract.registrations.RegistrationsListContract;
 import com.svalero.roadrunner.domain.Registration;
 import com.svalero.roadrunner.presenter.registrations.RegistrationsListPresenter;
-import com.svalero.roadrunner.view.MapsActivity;
 import com.svalero.roadrunner.view.users.UserDetailsView;
 
 import java.util.ArrayList;
