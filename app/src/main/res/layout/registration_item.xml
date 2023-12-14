@@ -9,37 +9,37 @@
         android:id="@+id/registration_race_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/registration_race_distance"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/registration_race_city"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <Button
+        <android.widget.Button
             android:id="@+id/delete_registration_button"
-            style="@style/Widget.Material3.Button"
-            android:layout_width="wrap_content"
-            android:layout_height="38dp"
-            android:layout_weight="1"
-            android:backgroundTint="#ECD0FE"
-            android:text="DELETE"
-            android:textColor="#5C1349"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/papelera"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textAlignment="center"
+            android:textSize="16sp" />
 
     </LinearLayout>
 

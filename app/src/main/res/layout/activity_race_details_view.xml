@@ -20,6 +20,7 @@
                 android:id="@+id/textViewName"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text="Name" />
 
             <TextView
@@ -27,6 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:textAlignment="center"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -39,6 +41,7 @@
                 android:id="@+id/textViewDistance"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text="Distance" />
 
             <TextView
@@ -46,6 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:textAlignment="center"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -58,6 +62,7 @@
                 android:id="@+id/textViewType"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text="Type" />
 
             <TextView
@@ -65,6 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:textAlignment="center"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -77,6 +83,7 @@
                 android:id="@+id/textCity"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text="City" />
 
             <TextView
@@ -84,6 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:textAlignment="center"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -96,6 +104,7 @@
                 android:id="@+id/textRegistrationPrice"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text="Price" />
 
             <TextView
@@ -103,6 +112,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:textAlignment="center"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -115,6 +125,7 @@
                 android:id="@+id/textRaceDate"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text="Date" />
 
             <TextView
@@ -122,6 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:textAlignment="center"
                 android:textSize="16sp" />
         </LinearLayout>
 

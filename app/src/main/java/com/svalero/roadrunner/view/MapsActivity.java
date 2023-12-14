@@ -2,7 +2,6 @@ package com.svalero.roadrunner.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -20,7 +19,7 @@ import com.mapbox.maps.plugin.annotation.generated.PointAnnotationOptions;
 import com.svalero.roadrunner.R;
 import com.svalero.roadrunner.contract.races.RacesListContract;
 import com.svalero.roadrunner.domain.Race;
-import com.svalero.roadrunner.presenter.races.RacesListPresenter;
+import com.svalero.roadrunner.view.races.RacesListPresenter;
 
 import java.util.List;
 

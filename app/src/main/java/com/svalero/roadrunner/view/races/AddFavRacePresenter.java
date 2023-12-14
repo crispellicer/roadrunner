@@ -1,4 +1,4 @@
-package com.svalero.roadrunner.presenter.races;
+package com.svalero.roadrunner.view.races;
 
 import com.svalero.roadrunner.adapter.FavRaceAdapter;
 import com.svalero.roadrunner.adapter.RaceAdapter;

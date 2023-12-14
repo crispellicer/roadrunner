@@ -19,9 +19,6 @@ import com.mapbox.maps.plugin.annotation.generated.PointAnnotationOptions;
 import com.svalero.roadrunner.R;
 import com.svalero.roadrunner.contract.races.RaceDetailsContract;
 import com.svalero.roadrunner.domain.Race;
-import com.svalero.roadrunner.presenter.races.RaceDetailsPresenter;
-
-import java.util.List;
 
 public class RaceDetailsView extends AppCompatActivity implements RaceDetailsContract.View {
 

@@ -9,7 +9,6 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -25,7 +24,6 @@ import com.svalero.roadrunner.R;
 import com.svalero.roadrunner.adapter.RaceAdapter;
 import com.svalero.roadrunner.contract.races.RacesListContract;
 import com.svalero.roadrunner.domain.Race;
-import com.svalero.roadrunner.presenter.races.RacesListPresenter;
 import com.svalero.roadrunner.view.MapsActivity;
 
 import java.util.ArrayList;
